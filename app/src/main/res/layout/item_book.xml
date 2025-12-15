@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="12dp">
+
+
+<TextView
+    android:id="@+id/itemTitle"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:textColor="@color/textPrimary"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/itemProgressText"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+<TextView
+    android:id="@+id/itemAuthor"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:textSize="15sp"
+    android:textColor="@color/textPrimary"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/itemTitle"
+    app:layout_constraintEnd_toEndOf="parent" />
+
+
+<ProgressBar
+    android:id="@+id/itemProgressBar"
+    style="?android:attr/progressBarStyleHorizontal"
+    android:layout_width="0dp"
+    android:layout_height="8dp"
+    android:max="100"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/itemAuthor"
+    android:layout_marginTop="8dp"/>
+
+
+<TextView
+    android:id="@+id/itemProgressText"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textColor="@color/textPrimary"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
