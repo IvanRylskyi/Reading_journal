@@ -1,4 +1,4 @@
-package com.ivan.readingjournal.ui;
+package com.ivan.readingjournal.controller.fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -11,9 +11,9 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import com.ivan.readingjournal.R;
-import com.ivan.readingjournal.BookAdapter;
-import com.ivan.readingjournal.db.DBHelper;
-import com.ivan.readingjournal.Book;
+import com.ivan.readingjournal.controller.db.BookAdapter;
+import com.ivan.readingjournal.controller.db.DBHelper;
+import com.ivan.readingjournal.model.db.Book;
 import java.util.List;
 
 public class BookListFragment extends Fragment {

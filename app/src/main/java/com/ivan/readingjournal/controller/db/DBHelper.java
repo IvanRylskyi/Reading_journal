@@ -1,11 +1,11 @@
-package com.ivan.readingjournal.db;
+package com.ivan.readingjournal.controller.db;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import com.ivan.readingjournal.Book;
+import com.ivan.readingjournal.model.db.Book;
 import java.util.ArrayList;
 import java.util.List;
 

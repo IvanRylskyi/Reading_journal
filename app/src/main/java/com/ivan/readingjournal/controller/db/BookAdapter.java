@@ -1,4 +1,4 @@
-package com.ivan.readingjournal;
+package com.ivan.readingjournal.controller.db;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -7,6 +7,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.ivan.readingjournal.R;
+import com.ivan.readingjournal.model.db.Book;
+
 import java.util.List;
 public class BookAdapter extends RecyclerView.Adapter<BookAdapter.VH> {
     public interface Listener {

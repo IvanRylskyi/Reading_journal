@@ -1,4 +1,4 @@
-package com.ivan.readingjournal;
+package com.ivan.readingjournal.model.db;
 
 public class Book {
     public long id;

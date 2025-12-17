@@ -1,8 +1,10 @@
-package com.ivan.readingjournal;
+package com.ivan.readingjournal.controller.activities;
 
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
-import com.ivan.readingjournal.ui.BookListFragment;
+
+import com.ivan.readingjournal.R;
+import com.ivan.readingjournal.controller.fragments.BookListFragment;
 
 public class MainActivity extends AppCompatActivity {
     @Override

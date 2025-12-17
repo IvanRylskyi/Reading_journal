@@ -1,4 +1,4 @@
-package com.ivan.readingjournal.ui;
+package com.ivan.readingjournal.controller.fragments;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -12,8 +12,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import com.ivan.readingjournal.R;
-import com.ivan.readingjournal.db.DBHelper;
-import com.ivan.readingjournal.Book;
+import com.ivan.readingjournal.controller.db.DBHelper;
+import com.ivan.readingjournal.model.db.Book;
 
 public class AddEditFragment extends Fragment {
     private EditText etTitle, etAuthor, etTotal, etRead, etRating, etNotes;
